@@ -1,0 +1,14 @@
+name: ratelimit
+description: Rate limit and exponetial backoff for mainly http requests, written in Dart for Harmonic 
+version: 0.2.0
+author: Montana Mendy <montana@getprowl.com>
+homepage: http://www.montanamendy.com
+
+environment:
+  sdk: '>=1.9.0 <2.0.0'
+
+dependencies:
+  http: "^0.11.3"
+
+dev_dependencies:
+  test: '>=0.12.0 <0.13.0'
